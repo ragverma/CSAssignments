@@ -1,0 +1,15 @@
+/* Card.css */
+.card {
+    background-color: #fff; /* Default background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    padding: 0px; /* Padding inside the card */
+    width: 450px; /* Fixed width */
+    height: 170px; /* Fixed height */
+    margin: 10px; /* Margin between cards */
+  }
+  .card h3 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* White line */
+    padding-bottom: 10px; /* Adjust spacing between heading and content */
+    margin-bottom: 10px; /* Adjust spacing between heading and content */
+  }

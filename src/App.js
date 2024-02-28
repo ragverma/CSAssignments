@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import './Navbar.js';
-import './Card.js';
+import Navbar from './Navbar';
+import Card from './Card';
 
 
 function App() {
@@ -13,9 +12,9 @@ function App() {
       <p>WVU ID: 800434127</p>
       <p>Hi I am Ragini</p>
       <div className = "card-container">
-        <Card />
-        <Card />
-        <Card />
+        <Card heading="Card 01" backgroundColor="#007FFF" content="q"/>        
+        <Card heading="Card 02" backgroundColor="#E63E62" content="c"/>        
+        <Card heading="Card 03" backgroundColor="#2E8B57" content="d"/>
       </div>
     </div>
   );

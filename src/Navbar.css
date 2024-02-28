@@ -1,0 +1,30 @@
+/* Navbar.css */
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-left span {
+    margin-right: 20px;
+  }
+  
+  .nav-left a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  

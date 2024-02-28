@@ -1,16 +1,23 @@
 // Navbar.js
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
-  return (
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  );
-};
-
+    return (
+      <nav className="navbar">
+        <div className="nav-left">
+          <span>Navbar</span>
+          <a href="/">Home</a>
+          <a href="/">About</a>
+          <a href="/">Contact</a>
+        </div>
+        <div className="nav-right">
+        <div>
+            <input type="text" placeholder="Search..." />
+            <button>Search</button>
+        </div>
+        </div>
+      </nav>
+    );
+  };
 export default Navbar;

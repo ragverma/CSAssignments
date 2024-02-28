@@ -27,7 +27,11 @@
 .App-link {
   color: #61dafb;
 }
-
+.card-container {
+  display: flex; /* Use flexbox to arrange cards */
+  justify-content: space-between; /* Distribute cards evenly along the container */
+  padding: 20px; /* Optional: Add padding to the container */
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
